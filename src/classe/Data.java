@@ -1,13 +1,15 @@
 package classe;
 
-import java.util.Date;
-
 public class Data {
-    String dia;
-    String mes;
-    String ano;
+    int dia;
+    int mes;
+    int ano;
 
-    int dia2;
-    int mes2;
-    int ano2;
+    String obterDataFormatada(){
+        return String.format("%d/%d/%d", dia, mes, ano);
+    }
+
+    void imprimirDataFormatada() {
+        System.out.println(obterDataFormatada());
+    }
 }
