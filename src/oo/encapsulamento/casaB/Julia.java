@@ -10,7 +10,5 @@ public class Julia {
 //        System.out.println(sogra.facoDentroDeCasa);    // default ou pacote: Somente quem esta no pacote.
 //        System.out.println(sogra.formaDeFalar);        // protected: Somente quem herdou o pacote.
         System.out.println(sogra.todosSabem);          // public: Todos veem.
-
-        sogra.
     }
 }
