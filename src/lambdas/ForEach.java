@@ -9,14 +9,25 @@ public class ForEach {
                 .asList("Ana", "Bia", "Lia", "Gui");
 
         System.out.println("Forma tradicional:");
-        for(String nome: aprovados) {
+        for (String nome : aprovados) {
             System.out.println(nome);
         }
 
         System.out.println("\nLambda #01...");
-        aprovados.forEach(cadaElementoDoArray -> System.out.println(cadaElementoDoArray + "!!!"));
+        aprovados.forEach(nome -> System.out.println(nome + "!!!"));
 
-        System.out.println("\nMethod Reference...");
+        System.out.println("\nMethod Reference#01...");
         aprovados.forEach(System.out::println);
+
+        System.out.println("\nLambda #02...");
+        aprovados.forEach(nome -> meuImprimir(nome));
+
+        System.out.println("\nMethod Reference#02...");
+        aprovados.forEach(ForEach::meuImprimir);
     }
+
+    static void meuImprimir(String nome) {
+        System.out.println("Oi, meu nome e: " + nome);
+    }
+
 }
