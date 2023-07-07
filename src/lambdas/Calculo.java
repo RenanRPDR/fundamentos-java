@@ -3,12 +3,12 @@ package lambdas;
 @FunctionalInterface
 public interface Calculo {
     double executar(double a, double b);
-
+    // Metodo default: legal, acesso direto somente pela instancia.
     default String legal(){
-        return "Metodo default: legal, acesso direto somente pela instancia.";
+        return "legal";
     }
-
+    // Metodo static: muito legal, acesso direto somente pela classe.
     static String muitoLegal(){
-        return "Metodo static: muito legal, acesso direto somente pela classe.";
+        return "muito legal";
     }
 }
