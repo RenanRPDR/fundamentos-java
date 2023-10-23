@@ -17,7 +17,7 @@ public class Mapa {
         System.out.println(usuarios.size());
         System.out.println(usuarios.isEmpty());
 
-        System.out.println("keySet: " + usuarios.keySet()); // Somente o indice
+        System.out.println("keySet: " + usuarios.keySet() + "KEEEEYSET"); // Somente o indice
         System.out.println("values: " + usuarios.values()); // Somente valores
         System.out.println("entrySet: " + usuarios.entrySet()); // Chave e valores
 

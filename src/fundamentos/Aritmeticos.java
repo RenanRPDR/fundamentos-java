@@ -22,7 +22,7 @@ public class Aritmeticos {
 		System.out.println(a / (double) b);
 		System.out.println(a / (float) b);
 		
-		System.out.println(a % b);
+		System.out.println(a % b + "module");
 		
 		System.out.println(x + y - a * b);
 				
