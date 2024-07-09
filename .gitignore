@@ -2,3 +2,8 @@
 /out/*
 /out/*.class
 /.idea/*
+
+\bin\*
+\out\*
+\out\*.class
+\.idea\*
