@@ -1,6 +1,6 @@
 bin/*
 out/*
-out/*.class
+*.class
 .idea/*
 
 bin\*
