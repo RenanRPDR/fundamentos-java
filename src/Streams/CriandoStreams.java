@@ -29,7 +29,7 @@ public class CriandoStreams {
         // Listas através das Collections
         List<String> outrasLangs = Arrays.asList("C ", "PHP ", "Kotlin\n");
 
-        // A partir do Java 17 o stream() ficou explicito conforme linha 31
+        // A partir do Java 17 o stream() ficou explicito conforme linha 34
         // outrasLangs.stream().forEach(print);
         outrasLangs.forEach(print);
         outrasLangs.parallelStream().forEach(print);
